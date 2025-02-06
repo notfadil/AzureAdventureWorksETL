@@ -9,7 +9,7 @@ def main():
     # Grab the GitHub URL from command-line args
     github_url = "https://github.com/notfadil/azureetlproject/tree/main"
     # Optional output file name
-    output_filename = "output.json"
+    output_filename = "git.json"
 
     # Parse owner, repo, branch, and folder path (no validation)
     path_parts = [p for p in urlparse(github_url).path.split('/') if p]
